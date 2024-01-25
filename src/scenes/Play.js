@@ -64,7 +64,7 @@ class Play extends Phaser.Scene{
             this.ship02.update()
             this.ship03.update()
         } 
-        if (this.gameOver && Phaser.Input.Keyboard.JustDown(keyLEFT)) {
+        if (this.gameOver && Phaser.Input.Keyboard.JustDown(keyRESET)) {
             this.scene.start("menuScene")
           }
         //d
